@@ -80,7 +80,7 @@ def image_to_ela(path, quality, resave_path):
             image1 = ela_image
             # image1=image1.flatten()/255.0
             # image1 = image1.reshape(-1,150,150,3)
-            model_path = "model\model.h5"
+            model_path = "model.h5"
 
             # prediction
             model = load_model(model_path)
